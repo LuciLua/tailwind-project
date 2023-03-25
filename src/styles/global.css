@@ -12,7 +12,7 @@ body {
   width: 100%;
 }
 
-body{
+body {
   @apply bg-primary-dark;
 }
 

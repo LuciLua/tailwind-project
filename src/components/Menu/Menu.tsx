@@ -1,46 +1,22 @@
 function Menu() {
-    return (
-        <div className="
-        fixed
-        flex
-        w-full
-        px-10
-        h-[80px]
-        top-0
-        bg-primary-dark-opacity75
-        backdrop-blur-[10px]
-        ">
-            <div className="
-            justify-between
-            items-center
-            mx-auto
-            text-[#efefef]
-            flex
-            max-w-[1300px]
-            w-full
-            ">
-
-                <ul><li>Logo</li></ul>
-                <ul className="
-            flex
-            lg:gap-32
-            gap-10
-            ">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-                <ul className="
-            flex
-            lg:gap-32
-            gap-10
-            ">
-                    <li>Search</li>
-                    <li>Quero um site</li>
-                </ul>
-            </div>
-        </div>
-    )
+  return (
+    <div className="fixed top-0 flex h-[80px] w-full bg-primary-dark-opacity75 px-10 backdrop-blur-[10px]">
+      <div className="mx-auto flex w-full max-w-[1300px] items-center justify-between text-[#efefef]">
+        <ul>
+          <li>Logo</li>
+        </ul>
+        <ul className="flex gap-10 lg:gap-32">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <ul className="flex gap-10 lg:gap-32">
+          <li>Search</li>
+          <li>Quero um site</li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
 export default Menu
