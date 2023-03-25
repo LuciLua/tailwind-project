@@ -11,6 +11,9 @@ export default function HomePage() {
             flex-col
             h-fit
             min-h-[500px]
+            text-terciary
+            bg-[radial-gradient(at_bottom,#2d3dec_1%,#191919_50%)]
+            from-secondary-dark
             ">
             <div className="
                 justify-center
@@ -96,7 +99,8 @@ export default function HomePage() {
                         className="
                      w-[250px]
                      h-[350px]
-                     bg-[#bea860]
+                     bg-primary
+                     text-terciary
                      flex
                      justify-center
                      items-center
@@ -106,7 +110,8 @@ export default function HomePage() {
                         className="
                      w-[250px]
                      h-[350px]
-                     bg-[#c96161]
+                     bg-secondary
+                     text-terciary
                      flex
                      justify-center
                      items-center
@@ -116,7 +121,19 @@ export default function HomePage() {
                         className="
                      w-[250px]
                      h-[350px]
-                     bg-[#5694de]
+                     bg-terciary
+                     text-secondary
+                     flex
+                     justify-center
+                     items-center
+                     "
+                    >card</div>
+                    <div
+                        className="
+                     w-[250px]
+                     h-[350px]
+                     bg-quartenary
+                     text-terciary
                      flex
                      justify-center
                      items-center

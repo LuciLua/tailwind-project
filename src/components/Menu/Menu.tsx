@@ -7,10 +7,8 @@ function Menu() {
         px-10
         h-[80px]
         top-0
-        bg-[#121212e1]
+        bg-primary-dark-opacity75
         backdrop-blur-[10px]
-        border-b-[#121212]
-        border-b-[1px]
         ">
             <div className="
             justify-between

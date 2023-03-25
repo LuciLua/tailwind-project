@@ -13,8 +13,7 @@ body {
 }
 
 body{
-  @apply bg-[#121212];
-  @apply text-slate-100;
+  @apply bg-primary-dark;
 }
 
 @tailwind base;
