@@ -1,5 +1,5 @@
 import Menu from "../components/Menu/Menu"
-import "../styles/global.css"
+import "../styles/globals.css"
 import { Lexend } from "next/font/google"
 
 const lexend = Lexend({

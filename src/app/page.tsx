@@ -1,36 +1,27 @@
-export default function HomePage() {
+export default function homepage() {
   return (
-    <div className="mx-auto flex h-fit min-h-[500px] w-full flex-col items-center justify-center bg-[radial-gradient(at_bottom,#2d3dec_1%,#191919_50%)] from-secondary-dark pt-[calc(100px+100px)] text-terciary">
-      <div className="flex max-w-[1300px] flex-col items-center justify-center">
-        <div className="mb-[30px]">
-          <h1 className="m-auto text-center text-[20px] font-normal sm:text-[60px]">
-            Agora você pode ter <br />
-            <span className="text-[40px] font-bold sm:text-[80px]">
-              o site dos seus sonhos
-            </span>
-          </h1>
+    <div className="pt-[80px] max-w-[1300px] m-auto min-h-[100dvh] flex flex-col justify-center items-center">
+      <div className="w-full flex justify-center items-center flex-col p-[10px] overflow-hidden">
+        <div className="leading-8 mb-5">
+          <h1 className="text-[#ddd] pt-5 text-[4em] leading-[50px]">Welcome to our site</h1>
+          <h2 className="text-primary p-5 text-[1.5em] self-start">Hello, World!</h2>
         </div>
-        <div className="flex gap-6">
-          <button className="rounded-[6px] bg-gradient-to-r from-[#7d1ebd] to-[#1e316f] py-2 px-4 sm:py-4 sm:px-8">
-            Quero um site
-          </button>
-          <button className="py-2 px-4 sm:py-4 sm:px-8">Conheça mais</button>
-        </div>
-        <div className="mt-[80px] font-thin">scroll to more</div>
-      </div>
-      <div className="my-[30px] flex w-full max-w-[100vw] flex-col items-center justify-center bg-[#161616] py-[30px] ">
-        <div className="my-[40px] flex h-fit max-h-fit w-fit max-w-[1300px] flex-wrap justify-center shadow-lg shadow-[#090909]">
-          <div className="flex h-[350px] w-[250px] items-center justify-center bg-primary text-terciary">
-            card
-          </div>
-          <div className="flex h-[350px] w-[250px] items-center justify-center bg-secondary text-terciary">
-            card
-          </div>
-          <div className="flex h-[350px] w-[250px] items-center justify-center bg-terciary text-secondary">
-            card
-          </div>
-          <div className="flex h-[350px] w-[250px] items-center justify-center bg-quartenary text-terciary">
-            card
+        <div className="bg-[#ddd] w-[720px] h-[400px] rounded-[12px] overflow-hidden shadow-[#121212] shadow-2xl">
+          <header className="flex gap-5 top-0 bg-[#fff] h-[20px] w-full px-[10px] justify-between">
+            <div className="flex gap-1 items-center">
+              <div className="rounded-full bg-[#afafaf] w-[14px] h-[14px]" />
+              <div className="rounded-full bg-[#afafaf] w-[14px] h-[14px]" />
+              <div className="rounded-full bg-[#afafaf] w-[14px] h-[14px]" />
+            </div>
+            <div className="flex gap-3">
+              <p>icon</p>
+              <p>icon</p>
+              <p>icon</p>
+              <p>icon</p>
+            </div>
+          </header>
+          <div className="bg-[#ddd] w-full h-full p-[50px]" >
+            <p>Tailwindcss test</p>
           </div>
         </div>
       </div>
